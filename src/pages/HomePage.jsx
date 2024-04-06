@@ -7,6 +7,7 @@ const HomePage = () => {
       <p>
         Thank you for visiting!
       </p>
+      <a href="/rps">Rock Paper Scissors</a>
     </div>
   );
 };

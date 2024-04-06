@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import { WelcomeScreen as Welcome } from '../../screens/WelcomeScreen'
-import Game from '../../screens/GameScreen'
+import { WelcomeScreen as Welcome } from '../../pages/rps/screens/WelcomeScreen'
+import Game from '../../pages/rps/screens/GameScreen'
 
 function App() {
   const [name, setName] = useState(`Bearcat`)
