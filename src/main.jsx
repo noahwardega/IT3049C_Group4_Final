@@ -14,9 +14,9 @@ root.render(
     {/* <p>Hello</p> */}
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/rps" element={<RPSGame/>} />
-        <Route path="/ttt" element={<Board/>} />
+        <Route path="/gamehub-noahwardega/" element={<HomePage/>} />
+        <Route path="/gamehub-noahwardega/rps" element={<RPSGame/>} />
+        <Route path="/gamehub-noahwardega/ttt" element={<Board/>} />
         {/* more routes */}
       </Routes>
     </BrowserRouter>
