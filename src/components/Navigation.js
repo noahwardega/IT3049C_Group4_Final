@@ -6,13 +6,13 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/gamehub-noahwardega/">Home</Link>
         </li>
         <li>
-            <Link to="/rps">Rock Paper Scissors</Link>
+            <Link to="/gamehub-noahwardega/rps">Rock Paper Scissors</Link>
         </li>
         <li>
-            <Link to="/ttt">Tic Tac Toe</Link>
+            <Link to="/gamehub-noahwardega/ttt">Tic Tac Toe</Link>
         </li>
       </ul>
     </nav>
