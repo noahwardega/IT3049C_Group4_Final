@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Navigation from '../components/Navigation'
 const HomePage = () => {
   return (
     <div>
@@ -7,8 +7,7 @@ const HomePage = () => {
       <p>
         Thank you for visiting!
       </p>
-      <a href="/gamehub-noahwardega/rps">Rock Paper Scissors</a> <br></br>
-      <a href="/gamehub-noahwardega/ttt">Tic Tac Toe</a>
+      <Navigation></Navigation>
     </div>
   );
 };
