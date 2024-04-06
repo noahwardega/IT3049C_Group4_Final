@@ -7,7 +7,8 @@ const HomePage = () => {
       <p>
         Thank you for visiting!
       </p>
-      <a href="/rps">Rock Paper Scissors</a>
+      <a href="/rps">Rock Paper Scissors</a> <br></br>
+      <a href="/ttt">Tic Tac Toe</a>
     </div>
   );
 };
