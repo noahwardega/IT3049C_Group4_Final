@@ -7,6 +7,7 @@ const Navigation = () => {
     <Link to="/IT3049C_Group4_Final/">Home</Link><br></br>
     <Link to="/IT3049C_Group4_Final/rps">Rock Paper Scissors</Link><br></br>
     <Link to="/IT3049C_Group4_Final/ttt">Tic Tac Toe</Link><br></br>
+    <Link to="/IT3049C_Group4_Final/spg">Sliding Puzzle Game</Link><br></br>
     </>
   );
 };
