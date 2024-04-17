@@ -1,5 +1,5 @@
 import React from "react";
-import { Motion, spring } from "react-motion";
+import {Motion, spring} from "react-motion";
 import { getMatrixPosition, getVisualPosition } from "./Game";
 import { TILE_COUNT, GRID_SIZE, BOARD_SIZE } from "./constants"
 
@@ -15,7 +15,7 @@ function Tile(props) {
     translateY: visualPos.y,
     backgroundImage: `url(${imgUrl})`,
     backgroundSize: `${BOARD_SIZE}px`,
-                            //100%/4 = 25% for each tile multiplied by the row and column
+    //100%/4 = 25% for each tile multiplied by the row and column
     backgroundPosition: `${(100 / (GRID_SIZE - 1)) * (tile % GRID_SIZE)}% ${(100 / (GRID_SIZE - 1)) * (Math.floor(tile / GRID_SIZE))}%`,
 
   };
