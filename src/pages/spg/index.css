@@ -15,7 +15,7 @@ body {
       monospace;
   }
   
-  .App {
+  .spg {
     display: grid;
     place-items: center;
     height: 100vh;
@@ -26,8 +26,10 @@ body {
   }
   
   .board {
+    display: grid;
     position: relative;
     padding: 0;
+    margin: 0 auto;
   }
   
   .tile {
