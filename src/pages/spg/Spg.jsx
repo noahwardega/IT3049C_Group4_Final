@@ -23,7 +23,7 @@ function Spg() {
     <div className="spg">
       <h1>React sliding puzzle</h1>
       <Board imgUrl={imgUrl} />
-      <input value={imgUrl} onChange={handleImageChange} />
+      <input name="imageURL" value={imgUrl} onChange={handleImageChange} />
     </div>
   );
 }
