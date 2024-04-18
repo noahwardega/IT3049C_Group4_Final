@@ -1,0 +1,56 @@
+
+body {
+    background-color: #FF69B4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .number-guessing-game {
+    font-family: Georgia, sans-serif;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .number-guessing-game h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .number-guessing-game p {
+    margin-bottom: 10px;
+  }
+  
+  .number-guessing-game form {
+    margin-bottom: 20px;
+  }
+  
+  .number-guessing-game input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: pink;
+  }
+  
+  .number-guessing-game button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: pink; 
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .number-guessing-game button:hover {
+    background-color: pink; 
+    color: #fff; 
+  }
