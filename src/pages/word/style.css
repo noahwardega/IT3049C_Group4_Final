@@ -31,8 +31,8 @@ header h1 {
 #wordle-grid {
     display: grid;
     grid-template-columns: repeat(5, auto);
+    grid-auto-rows: 60px; /* Set the height of rows */
     gap: 8px;
-    
 }
 
 
@@ -70,5 +70,3 @@ header h1 {
 .incorrect {
     background-color: var(--incorrect);
 }
-
-
