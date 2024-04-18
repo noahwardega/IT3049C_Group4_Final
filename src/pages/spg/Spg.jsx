@@ -20,7 +20,7 @@ function Spg() {
   }
 
   return (
-    <div className="spg">
+    <div className="Spg">
       <h1>React sliding puzzle</h1>
       <Board imgUrl={imgUrl} />
       <input name="imageURL" value={imgUrl} onChange={handleImageChange} />

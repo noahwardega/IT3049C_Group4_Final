@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import RPSGame from './pages/rps/App';
 import Board from './pages/ttt/board';
 import Spg from './pages/spg/Spg';
+import Word from './pages/word/App';
 import './index.css';
 
 
@@ -19,8 +20,6 @@ root.render(
         <Route path="/IT3049C_Group4_Final/rps" element={<RPSGame/>} />
         <Route path="/IT3049C_Group4_Final/ttt" element={<Board/>} />
         <Route path="/IT3049C_Group4_Final/spg" element={<Spg/>} />
-        <Route path="/IT3049C_Group4_Final/spg" element={<GuessingGame/>} />
-        
         {/* more routes */}
       </Routes>
     </BrowserRouter>
