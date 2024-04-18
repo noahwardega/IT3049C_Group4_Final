@@ -54,12 +54,14 @@ export function isSolvable(tiles) {
       ? shuffledTiles
       : shuffle(shuffledTiles);
   }
+
   // Check if the tile can be swapped with the empty tile
   export function canSwap(srcIndex, destIndex) {
     const { row: srcRow, col: srcCol } = getMatrixPosition(srcIndex);
     const { row: destRow, col: destCol } = getMatrixPosition(destIndex);
     return Math.abs(srcRow - destRow) + Math.abs(srcCol - destCol) === 1;
   }
+
   // Swap the tiles
   export function swap(tiles, src, dest) {
     const tilesResult = [...tiles];
@@ -67,7 +69,7 @@ export function isSolvable(tiles) {
     return tilesResult;
   }
   
-  // Allows us to use our own image
+  // Updateds the URL to let us use our own image url
   export function updateURLParameter(url, param, paramVal) {
     var newAdditionalURL = "";
     var tempArray = url.split("?");
