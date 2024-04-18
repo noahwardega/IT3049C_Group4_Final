@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--default);
+    color: var(--text-color);
+}
+
+header {
+    border-bottom: 2px solid var(--text-color);  
+}
+
+header h1 {
+    text-align: center;
+}
+
+#mode-toggle {
+    display:inline-block;
+}
+
+.letter {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--incorrect);
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    display: grid;
+    place-items: center;
+}
+
+#wordle-grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 8px;
+    
+}
+
+
+#game {
+    height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+
+:root {
+    --default: #121213;
+    --incorrect: #3a3a3c;
+    --misplaced: #b59f3b;
+    --correct: #538d4e;
+    --text-color: #f5f5f5;
+  }
+  
+.light-mode {
+    --default: #F5F8FF;
+    --incorrect: #ff4d4d;
+    --misplaced: #ffcc00;
+    --correct: #00cc66;
+    --text-color: #0B1623;
+}
+
+.correct {
+    background-color: var(--correct);
+}
+
+.misplaced {
+    background-color: var(--misplaced);
+}
+
+.incorrect {
+    background-color: var(--incorrect);
+}
+
+
