@@ -44,12 +44,11 @@ export function isSolvable(tiles) {
   
   // Shuffles the tiles and checks if the puzzle is solvable and that it is not already solved
   export function shuffle(tiles) {
-    const shuffledTiles = [
-      ...tiles
-        .filter((t) => t !== tiles.length - 1)
-        .sort(() => Math.random() - 0.5),
-      tiles.length - 1,
-    ];
+    const shuffledTiles = [...tiles];
+    for (let i = shuffledTiles.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledTiles[i], shuffledTiles[j]] = [shuffledTiles[j], shuffledTiles[i]]
+    }
     return isSolvable(shuffledTiles) && !isSolved(shuffledTiles)
       ? shuffledTiles
       : shuffle(shuffledTiles);
